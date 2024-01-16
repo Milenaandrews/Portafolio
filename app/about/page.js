@@ -1,7 +1,9 @@
+import CardAbout from "@/components/CardAbout"
+
 const about = () => {
   return (
-    <div>
-        <h1>Desde el about</h1>
+    <div className="px-5 sm:px-20 xl:px-80">
+        <CardAbout/>
     </div>
   )
 }

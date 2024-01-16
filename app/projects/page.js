@@ -1,7 +1,12 @@
+import CardProject from "@/components/CardProject"
+
 const projects = () => {
     return (
-        <div>
-            <h1>desde proyects</h1>
+        <div className="grid grid-cols-3 h-screen items-center">
+            <CardProject nombreBoton="" />
+            <CardProject />
+            <CardProject />
+
         </div>
     )
 }

@@ -6,7 +6,7 @@ const Appbar = () => {
 
   const links = [
     {
-      nombre: "acerca de mi",
+      nombre: "Acerca de mi",
       href: "/about"
     },
     {
@@ -14,7 +14,7 @@ const Appbar = () => {
       href: "/projects"
     },
     {
-      nombre: "contacto",
+      nombre: "Contacto",
       href: "/contacto"
     }
   ]
