@@ -4,6 +4,7 @@ import {motion} from 'framer-motion'
 import {fadeIn} from './utils/motionTransition'
 import React from 'react'
 import { FaDownload } from "react-icons/fa6";
+import Link from 'next/link'
 
 
 const Card = () => {
@@ -21,6 +22,7 @@ const Card = () => {
         </p>
       </div>
       <div className='mt-5'>
+        <Link href={"../public/docs/jorpa.pdf"} target={"_blank"} download={true}></Link>
         <Button
           color="secondary"
           radius="lg"
