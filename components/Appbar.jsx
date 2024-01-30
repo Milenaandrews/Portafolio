@@ -1,5 +1,5 @@
 import React from "react";
-import {Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button} from "@nextui-org/react";
+import { Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button, NavbarMenuToggle, NavbarMenu } from "@nextui-org/react";
 
 
 const Appbar = () => {
@@ -19,23 +19,54 @@ const Appbar = () => {
     }
   ]
   return (
-    <Navbar>
-      <NavbarBrand>
-                <p className="font-bold text-inherit">UDD</p>
-      </NavbarBrand>
+    <Navbar className="bg-background/20">
+      {/* Navbar XS */}
+      <NavbarContent className="sm:hidden" justify="start">
+        <NavbarMenuToggle />
+      </NavbarContent>
 
-      <NavbarContent className="hidden sm:flex gap-4" justify="center">
-        {links.map((link,i)=>(
-          <NavbarItem key={i}>
-          <Link color="foreground" href={link.href}>
-            {link.nombre}
+      <NavbarContent className="sm:hidden pr-3" justify="center" >
+        <NavbarBrand>
+          <Link href="/">
+            <p className="font-bold text-secondary">Portafolio</p>
           </Link>
-        </NavbarItem>
+        </NavbarBrand>
+      </NavbarContent>
+
+      <NavbarMenu>
+        {links.map((link, i) => (
+          <NavbarItem key={i}>
+            <Link className="text-white" href={link.href}>
+              {link.nombre}
+            </Link>
+          </NavbarItem>
         ))}
 
-      
+      </NavbarMenu>
+
+      {/* Navbar XL */}
+      <NavbarContent className="hidden sm:flex gap-4" justify="start">
+        <NavbarBrand>
+          <Link href="/">
+            <p className="font-bold text-secondary">Portafolio</p>
+          </Link>
+        </NavbarBrand>
+
       </NavbarContent>
-      <NavbarContent justify="end">
+
+
+      <NavbarContent className="hidden sm:flex gap-4" justify="center">
+        {links.map((link, i) => (
+          <NavbarItem key={i}>
+            <Link className="text-white" href={link.href}>
+              {link.nombre}
+            </Link>
+          </NavbarItem>
+        ))}
+      </NavbarContent>
+
+
+      {/* <NavbarContent justify="end">
         <NavbarItem className="hidden lg:flex">
           <Link href="#">Login</Link>
         </NavbarItem>
@@ -44,7 +75,7 @@ const Appbar = () => {
             Sign Up
           </Button>
         </NavbarItem>
-      </NavbarContent>
+      </NavbarContent> */}
     </Navbar>
   );
 }

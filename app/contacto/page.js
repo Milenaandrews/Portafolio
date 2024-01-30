@@ -3,7 +3,7 @@ import React from 'react'
 
 const contacto = () => {
   return (
-    <div>
+    <div className='h-screen flex justify-center items-center xl:px-32'>
       <FormContacto/>
     </div>
   )
