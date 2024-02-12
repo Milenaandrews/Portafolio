@@ -43,9 +43,9 @@ const Socials = () => {
         {dataSocial.map(({ name, path, icon }) => (
           <div key={name}>
             <Link href={path}
-              className='group transition-all duration-300 hover:text-secondary'>
+              className='group transition-all duration-300 hover:text-cyan-400'>
               <div className='absolute left-20 hidden mr-20 rounded-sm md:group-hover:flex md:group-hover:items-center'>
-                <div className='relative flex items-center p-2 leading-none text-secondary font-bold capitalize bg-gray-500/50 rounded-sm'>
+                <div className='relative flex items-center p-2 leading-none text-cyan-400 font-bold capitalize bg-gray-500/50 rounded-sm'>
                   {name}
                 </div>
                 <div className='absolute border-r-8 border-1-0 border-solid border-r-white border-y-transparent '></div>

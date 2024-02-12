@@ -12,7 +12,7 @@ const CardAbout = () => {
             <Image width={300}
                 alt="Computador"
                 src="https://th.bing.com/th/id/OIG4.ADZs3CMgLqYMC_j.__gH?pid=ImgGn" />
-            <div className="text-3xl pt-5 mb-5 font-bold text-secondary">
+            <div className="text-3xl pt-5 mb-5 font-bold text-emerald-400">
                 <h1>Acerca de mi</h1>
             </div>
             <div className='text-xl px-5 py-1  sm:px-20' >
@@ -23,7 +23,7 @@ const CardAbout = () => {
             <div className='mt-5'>
                 <Link href={"../public/docs/CV.pdf"} target={"_blank"} download={true}>
                     <Button
-                        color="secondary"
+                        color="danger"
                         radius="lg"
                         className='py-7 px-5 text-base'
                         endContent={<FaDownload fontSize={20} />}

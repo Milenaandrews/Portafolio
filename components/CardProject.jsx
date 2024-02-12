@@ -11,7 +11,7 @@ const CardProject = (props) => {
         <div>
             <motion.div  whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }} variants={fadeIn("right", 0.5)} initial="hidden" animate="show" exit="hidden" className='flex flex-col justify-center items-center min-h-[200px] relative group cursor-pointer'>
-            <div className='text-center bg-slate-600/70 h-12 absolute top-0 z-20 p-5 rounded group-hover:h-full transition-all'>
+            <div className='text-center bg-cyan-600/80 h-12 absolute top-0 z-20 p-5 rounded group-hover:h-full transition-all'>
                 <h1 className='font-bold flex justify-center items-center top-0'>{props.title}</h1>
                 <p className='opacity-0 group-hover:opacity-100 text-'>{props.description}</p>
             </div>
