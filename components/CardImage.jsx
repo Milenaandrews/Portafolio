@@ -10,9 +10,9 @@ const CardImage = () => {
             variants={fadeIn("right", 0.5)} initial="hidden" animate="show" exit="hidden"
             className="flex justify-center h-full sm:h-auto items-end">
             <Image
-                width={300}
+                width={600}
                 alt="NextUI hero Image"
-                src="https://nextui-docs-v2.vercel.app/images/hero-card-complete.jpeg"
+                src="https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             />
         </motion.div>
     )

@@ -11,8 +11,8 @@ const CardProject = (props) => {
         <motion.div  whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }} variants={fadeIn("right", 0.5)} initial="hidden" animate="show" exit="hidden" className='flex flex-col justify-center items-center min-h-[200px] relative group cursor-pointer'>
             <div className='text-center bg-gray-500/70 absolute top-0 z-20 p-5 rounded'>
-                <h1 className='font-bold'>{props.title} Titulo del proyecto</h1>
-                <p>{props.description} lorem akjfkajsfklsjalkfdjsflkdjk</p>
+                <h1 className='font-bold'>{props.title}</h1>
+                <p>{props.description}</p>
             </div>
             <div className='h-full w-full rounded absolute'>
                 <Image

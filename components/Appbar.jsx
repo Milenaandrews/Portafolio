@@ -13,10 +13,10 @@ const Appbar = () => {
       nombre: "Proyectos",
       href: "/projects"
     },
-    {
-      nombre: "Contacto",
-      href: "/contacto"
-    }
+    // {
+    //   nombre: "Contacto",
+    //   href: "/contacto"
+    // }
   ]
   return (
     <Navbar className="bg-background/20">
@@ -28,7 +28,7 @@ const Appbar = () => {
       <NavbarContent className="sm:hidden pr-3" justify="center" >
         <NavbarBrand>
           <Link href="/">
-            <p className="font-bold text-secondary">Portafolio</p>
+            <p className="font-bold text-secondary">Milena Andrews</p>
           </Link>
         </NavbarBrand>
       </NavbarContent>
@@ -48,7 +48,7 @@ const Appbar = () => {
       <NavbarContent className="hidden sm:flex gap-4" justify="start">
         <NavbarBrand>
           <Link href="/">
-            <p className="font-bold text-secondary">Portafolio</p>
+            <p className="font-bold text-secondary">Milena Andrews</p>
           </Link>
         </NavbarBrand>
 
