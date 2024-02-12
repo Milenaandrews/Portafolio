@@ -3,6 +3,7 @@ import './globals.css'
 import Appbar from '@/components/Appbar'
 import Provider from './Provider'
 import Socials from '@/components/Socials'
+import Footer from '@/components/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,6 +20,7 @@ export default function RootLayout({ children }) {
           <Appbar/>
           <Socials/>
             {children}
+          <Footer/>
         </Provider>
       </body>
     </html>

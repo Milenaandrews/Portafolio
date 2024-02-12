@@ -6,15 +6,15 @@ import React from 'react'
 
 const CardAbout = () => {
     return (
-        <motion.div variants={fadeIn("down", 0.5)} initial="hidden" animate="show" exit="hidden" className='h-screen flex flex-col justify-center mt-7 items-center' >
+        <motion.div variants={fadeIn("down", 0.5)} initial="hidden" animate="show" exit="hidden" className='h-screen flex flex-col justify-center mt-4 items-center' >
             <Image width={300} 
                 alt="Computador"
                 src="https://th.bing.com/th/id/OIG4.ADZs3CMgLqYMC_j.__gH?pid=ImgGn" />
-            <div className="text-3xl mb-5 font-bold text-secondary">
+            <div className="text-3xl pt-5 mb-5 font-bold text-secondary">
                 <h1>Acerca de mi</h1>
             </div>
             <div className='text-xl px-5 py-1  sm:px-20' >
-                <p>Como desarrolladora, me destaco por ser proactiva, autodidacta, organizada y responsable. Disfruto enormemente adquiriendo nuevos conocimientos y perfeccionando mis habilidades técnicas para seguir creciendo profesionalmente. Además, poseo habilidades blandas como liderazgo, trabajo en equipo, adaptabilidad y atención al detalle. Estas cualidades me permiten colaborar eficazmente con otros y liderar proyectos hacia el éxito. Estoy comprometida a seguir aprendiendo y mejorando continuamente para alcanzar mis objetivos en el campo del desarrollo.</p>
+                <p>Como desarrolladora autodidacta, me caracterizo por ser responsable, detallista y siempre estar ávida de seguir aprendiendo. Mi viaje en el mundo de la programación comenzó en mayo de 2023 y desde entonces no he dejado de avanzar. Poseo conocimientos en el stack MERN (MongoDB, Express, React, Node), los cuales he adquirido y perfeccionado de forma independiente a lo largo de mi trayectoria.</p>
             </div>
         </motion.div>
     )

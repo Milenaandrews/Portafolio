@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <section
       id= "home"
-      className='grid grid-cols-1 sm:grid-cols-2 justify-center items-center h-screen xl:px-80 sm:px-20 gap-4' >
+      className='flex justify-center items-center h-screen xl:px-70 sm:px-20 gap-5' >
       <CardImage/>
       <Card />
     </section>
