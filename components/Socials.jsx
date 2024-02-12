@@ -3,7 +3,8 @@ import React from 'react';
 import {
   RiPinterestFill,
   RiGithubFill,
-  RiLinkedinBoxFill
+  RiLinkedinBoxFill,
+  RiWhatsappFill
 } from "react-icons/ri"
 import { motion } from 'framer-motion'
 import Link from 'next/link'
@@ -20,6 +21,12 @@ const Socials = () => {
       name: 'Github',
       path: 'https://github.com/Milenaandrews',
       icon: <RiGithubFill size="30" />,
+    },
+
+    {
+      name: 'Whatsapp',
+      path: 'https://api.whatsapp.com/send?phone=56984189254',
+      icon: <RiWhatsappFill size="30" />,
     }
   ]
 

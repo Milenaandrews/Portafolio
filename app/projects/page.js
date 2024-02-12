@@ -29,7 +29,7 @@ const projects = () => {
             />
             <CardProject
                 title="Dashboard Weather App"
-            description="Desarrollo de aplicación para ver el clima en tiempo real, alimentandose de API Weather app."
+            description="Desarrollo de aplicación para ver el clima en tiempo real, alimentandose de API Weather."
             bgCardImage= "https://res.cloudinary.com/dzppqa6a9/image/upload/v1707751719/weatherApp_qf8lll.jpg"
             urlDescription= "https://main--fascinating-frangipane-179fcd.netlify.app/?classId=3171369d-975e-442e-bc3d-27ca2f25647f&assignmentId=348889ba-7756-4caa-a95b-7e5f152981df&submissionId=e01bbe6e-d33c-0c34-988c-a592ea0f8313"
             urlRepositorio= "https://github.com/Milenaandrews/Proyecto3_dashboard?classId=3171369d-975e-442e-bc3d-27ca2f25647f&assignmentId=348889ba-7756-4caa-a95b-7e5f152981df&submissionId=e01bbe6e-d33c-0c34-988c-a592ea0f8313"
