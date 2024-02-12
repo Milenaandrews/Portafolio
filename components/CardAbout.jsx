@@ -15,10 +15,14 @@ const CardAbout = () => {
             <div className="text-3xl pt-5 mb-5 font-bold text-emerald-400">
                 <h1>Acerca de mi</h1>
             </div>
-            <div className='text-xl px-5 py-1  sm:px-20' >
-                <p> Mi viaje en el mundo de la programación comenzó en mayo de 2023 y desde entonces no he dejado de avanzar. Poseo conocimientos en el stack MERN (MongoDB, Express, React, Node), los cuales he adquirido y perfeccionado de forma independiente a lo largo de mi trayectoria.
-                    Como desarrolladora autodidacta, me caracterizo por ser responsable, detallista y siempre estar ávida de seguir aprendiendo.
-                </p>
+            <div className='text-xl px-5 py-1  sm:px-20 ' >
+                <p className='text-justify'> Mi viaje en el mundo de la programación comenzó en mayo de 2023 y desde entonces no he dejado de avanzar.</p>
+                <p className="my-4"></p>
+                <p className="text-justify"> Poseo conocimientos en el stack MERN (MongoDB, Express, React, Node), los cuales he adquirido y perfeccionado de forma independiente a lo largo de mi trayectoria.</p>
+                <p className="my-4"></p>
+                <p className="text-justify">    Como desarrolladora autodidacta, me caracterizo por ser responsable, detallista y siempre estar ávida de seguir aprendiendo.</p>
+                
+            
             </div>
             <div className='mt-5'>
                 <Link href={"../public/docs/CV.pdf"} target={"_blank"} download={true}>
