@@ -26,10 +26,10 @@ const CardProject = (props) => {
             
         </motion.div>
         <div className='flex gap-5 mt-5 justify-center items-center'>
-                <Link href={props.urlRepositorio}>
+                <Link href={props.urlRepositorio} target={"_blank"}>
                     <Button color="primary">Repositorio</Button>
                 </Link>
-                <Link href={props.urlDescription}>
+                <Link href={props.urlDescription} target={"_blank"}>
                     <Button color="secondary">Deploy</Button>
                 </Link>
             </div>
