@@ -25,7 +25,7 @@ const CardAbout = () => {
             
             </div>
             <div className='mt-5'>
-                <Link href={"../public/docs/CV.pdf"} target={"_blank"} download={true}>
+                {/* <Link href={"../public/docs/CV.pdf"} target={"_blank"} download={true}>
                     <Button
                         color="danger"
                         radius="lg"
@@ -34,7 +34,7 @@ const CardAbout = () => {
                     >
                         Curriculum
                     </Button>
-                </Link>
+                </Link> */}
 
             </div>
         </motion.div>
