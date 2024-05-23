@@ -25,7 +25,7 @@ const Socials = () => {
 
     {
       name: 'Whatsapp',
-      path: 'https://api.whatsapp.com/send?phone=56984189254',
+      path: 'https://api.whatsapp.com/send?phone=',
       icon: <RiWhatsappFill size="30" />,
     }
   ]

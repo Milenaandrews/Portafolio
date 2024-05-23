@@ -41,7 +41,7 @@ const projects = () => {
             urlDescription= "https://regal-chimera-e19bc1.netlify.app/?classId=3171369d-975e-442e-bc3d-27ca2f25647f&assignmentId=134d16ea-0d59-4488-a460-186c1a208e6b&submissionId=df7bd3f5-a477-7926-d753-ae019c26b05a"
             urlRepositorio= ""
             />
-      
+
         </div>
     )
 }
